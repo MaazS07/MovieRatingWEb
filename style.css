@@ -1,0 +1,115 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    padding: 3vh 0;
+}
+.nav h1{
+    color:aliceblue;
+    font-size: 5vh;
+ 
+}
+form input{
+  width: 25vw;
+  height: 4vh;
+  border: 2px solid whitesmoke;
+  
+  padding-left: 2vw;
+}
+
+button{
+    background-color: aliceblue;
+    color: black;
+    padding:  0.8vh 3vw;
+    border: 2px solid whitesmoke;
+  
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all ease-in 0.5s;
+}
+.movie-container
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.movie-genre
+{
+ 
+ opacity: 0.8;
+ font-size: 1.5vw;
+ font-weight: bolder;
+ display: flex;
+ word-spacing: 1vw;
+ position: relative;
+ top: 15vh;
+ left: 30vh;
+ gap: 2vw;
+ 
+
+
+
+
+}
+.movie-data h1
+{
+    position: relative;
+color: black;
+text-align: center;
+font-size: 7vh;
+top: 8vh;
+left: 30vh;
+}
+.movie-data h5{
+    position: relative;
+    left: 30vh;
+    font-weight: 300;
+    font-size: 3vh;
+    padding: 1vh;  
+    top: 10vh;
+}
+.movie-data h3{
+    position: relative;
+    left: 30vh;
+    top: 10vh;
+    font-size: 3vh;
+    padding: 1vh;
+    font-weight: 300;
+    margin-bottom: 2vh;
+    
+}
+#image
+{
+    position:absolute;
+    left: 5vw;
+    top: 20vh;
+    height: 75vh;
+    width: 45vw;
+    object-fit: contain;
+}
+.movie-ratings
+{
+    position: relative;
+    left: 30vh;
+    top: 10vh;
+    font-size: 3vh;
+    padding: 1vh;
+    
+       
+}
+
+
